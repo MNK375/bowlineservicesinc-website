@@ -1,0 +1,550 @@
+*{
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+html{
+  min-width: 1100px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+p{
+  font-family: 'Slabo 27px', serif;
+  font-size: 20px;
+}
+
+header{
+  max-width: 1080px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.company-name{
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.top{
+  font-size:12px;
+  color:#f47c14;
+}
+
+
+.nav-bars{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  margin-top: 50px;
+  font-family: 'Slabo 27px', serif;
+}
+
+.nav-bars li{
+ height: 30px;
+ margin-right:18px;
+ direction: none;
+}
+
+.nav-bars li a{
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s  ease 0s;
+}
+
+.nav-bars li a:hover{
+color:#f47c14;
+}
+
+button{
+  font-family: 'Slabo 27px', serif;
+  font-size:13px;
+  text-decoration: none;
+  border-radius: 50px;
+  margin-bottom: 30px;
+  list-style: none;
+  width: 100px;
+  border:#f47c14;
+  background-color:#f47c14;
+  color:black;
+  padding: 5px;
+}
+
+button:hover{
+  background-color:#f45b14;
+  transition: all 0.3s  ease 0s;
+  cursor: pointer;
+}
+
+.buttons{
+  height: 30px;
+  width: 120px;
+}
+
+img.service.nav{
+  margin: 0;
+}
+
+.nav{
+  margin: 0;
+}
+
+.hero-image{
+  max-width: 100%;
+}
+
+h3{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  font-size: 35px;
+  text-justify:center;
+  text-align: center;
+  font-family: 'Slabo 27px', serif;
+}
+
+.under-hero-image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.smaller-font{
+  font-size:15px;
+  padding-bottom: 10px;
+}
+
+.phone-img{
+  display: flex;
+  flex-direction: row;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+.our-service{
+  margin-top: 30px;
+}
+
+.boo{
+  margin-bottom: 20px;
+ }
+
+.half-main{
+min-width: 80%;
+margin-right: 100px;
+margin-left: 100px;
+}
+
+.service{
+  margin-bottom: 50px;
+} 
+
+.about-us{
+  background-image:  url(img/dad-and-son-540396126-412x412.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 500px;
+  max-width: 100%;
+}
+
+.about-us-text{
+padding-top: 30px;
+height:300px;
+width: 700px;
+padding-left:250px;
+text-align: center;
+}
+
+strong{
+  padding-top: 20px;
+  color: white;
+  text-shadow:2px 2px black;
+}
+
+.footer-area{
+   /* width: 100%; */
+   height: 300px;
+   background-color:#ccd0d9;
+  }
+
+ .footer-whole{
+  display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-top: 20px;
+ }
+
+.footer-left{
+   padding-left: 60px;
+}
+
+.footer-right{
+  padding-right: 60px;
+}
+
+.email{
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.email-image{
+  margin-right: 15px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color:#f47c14;
+}
+
+ .bussiness-hours-image{
+   display: flex;
+   flex-direction: row;
+ }
+
+ .phone-number{
+   display: flex;
+   flex-direction: row;
+ }
+
+ .clock{
+   padding-left: 30px;
+   padding-right: 20px;
+ }
+
+ .number{
+   padding-left:10px;
+ }
+
+ .days-in-a-week{
+   padding-bottom: 5px;
+   padding-top: 15px;
+ }
+
+ /* .footer-background{
+  z-index: 1;
+  position: relative;
+ } */
+
+ .footer-p{
+  font-size: 14px;
+  text-align: center;
+ }
+
+ .footer-bottom{
+   margin-top:30px;
+ }
+
+ .footer-button{
+   margin-bottom: 30px;
+   margin-right: 70px;
+ }
+
+ /* .footer-button{
+  top: 3300px;
+  left: 540px;
+  z-index: 2;
+  position: absolute;
+ } */
+
+/***tablet responsive*****/
+
+@media only screen and (max-width: 768px) {  
+.hero-image{
+      max-width: 80%;
+   }
+
+.nav-bars{
+  margin-right:300px;
+}
+
+.under-hero-image{
+  max-width: 60%;
+  margin-left: 80px;
+}
+
+.half-main{
+margin: 0 auto;
+
+}
+.service-img{
+ width:77%;
+}
+
+.about-us{
+  max-width: 850px;
+ 
+}
+
+.about-us-text{
+  padding-left: 0;
+  margin:0;
+  margin-left: 30px;
+}
+
+footer{
+  width: 77%;
+}
+
+   /*  estimate-form   */
+#formpage-header{
+  width: 90%;
+}
+
+img#formpage-hero{
+  width: 75%;
+}
+
+.form{
+  width:750px;
+  padding-left: 15px;
+}
+
+#formpage-footer{
+  width:75%;
+}
+#formpage-footerwhole{
+  margin-right: 60px;
+}
+}
+
+
+
+  /***mobile  responsive*****/
+
+  @media only screen and (max-width: 375px) {  
+header{
+  width: 600px;
+}
+
+.hero-area{
+width:450px;
+}
+
+h3{
+  font-size: 25px;
+}
+.under-hero-image{
+  width:30%;
+  margin-left: 20px;
+}
+
+#up-button{
+  margin:0;
+}
+
+.service-img{
+  width:33%;
+
+}
+
+nav{
+  position: fixed;
+  bottom: 0;
+  width: 90%;
+}
+
+.nav-bars{
+ display: flex;
+flex-direction: row;
+margin-top: 40px;
+}
+
+.nav-bars.li{
+  margin-right: 0;
+}
+
+li#footer-nav{
+width: 70px;
+border: black solid 1px;
+background-color:#ccd0d9;
+border-radius: 30px;
+text-align: center;
+text-justify: center;
+margin:0;
+padding: 0;
+}
+
+#footer-btn{
+  width: 75px;
+  height: 30px;
+  font-size:10px;
+  margin:0;
+}
+
+.buttons{
+margin-left: 50px;
+}
+
+.nav-bars li a{
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s  ease 0s;
+  cursor: pointer;
+  text-justify: center;
+  font-size: 13px;
+}
+
+#footer-nav{
+  margin: 0;
+}
+
+.nav-bars li a:hover{
+  color:#f47c14;
+  }
+
+
+  #footer-btn:hover{
+    background-color:#f45b14;
+    transition: all 0.3s  ease 0s;
+    cursor: pointer;
+  }
+
+  .about-us{
+    width: 33%;
+  }
+
+  .about-us-text{
+   width: 85%;
+   margin-right: 10px;
+   margin-left: 30px;
+  }
+
+.footer-area{
+  width: 35%;
+  height: 500px;
+}
+
+.footer-whole{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footer-right p{
+  font-size: 85%;
+}
+
+.clock{
+  margin-left: 40px;
+}
+
+.days-in-a-week{
+  margin-left: 70px;
+}
+.footer-left{
+  padding-left: 0;
+  padding-right: 30px;
+}
+
+/*     form-page mobile size */
+#formpage-header{
+  width: 20%;
+  height: 40px;
+}
+
+
+p.bottom{
+  font-size:14px;
+}
+
+img#formpage-hero{
+  width: 100%;
+  margin: 0;
+}
+
+.form{
+  width:30%;
+}
+
+footer.formpage{
+  width:35%;
+  height: 370px;
+}
+
+h3.formpage{
+  font-size: 25px;
+
+}
+
+#formpage-nav-bottom li{
+  width: 100px;
+  padding-left: 50px;
+  margin: 0;  
+ }
+
+li.bottom-list{
+  margin: 0;
+  height: 26px;
+}
+
+#bottom-li-home{
+  margin-left: 30px;
+}
+
+
+.bottom-list{
+  border: solid 1px black;
+  border-radius: 30px;
+  width: 100px;
+  height:26px;
+  text-justify: center;
+  text-align: center;
+  background-color: #ccd0d9;
+}
+
+.btn-bottom{
+  margin: 0;
+}
+
+.footer-left a{
+  font-size: 13px;
+}
+
+#formpage-footerwhole{
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#formpage-nav-bottom{
+  margin-top: 0;
+}
+
+.footer-right{
+  margin-bottom: 40px;
+}
+.sunday-holiday{
+  padding-left: 30px;
+}
+
+.footer-p{
+  font-size: 10px;
+  margin-right: 20px;
+}
+
+.phone-image{
+  padding-right: 20px;
+}
+
+#sun-holi{
+  margin-left: 50px;
+}
+  }
+
+
+
+
